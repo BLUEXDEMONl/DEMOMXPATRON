@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url('https://raw.githubusercontent.com/Bolaolat/Giveaway-/main/_1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.overlay {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 30px rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    max-width: 450px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15vh;
+}
+
+@media (max-width: 640px) {
+    .overlay {
+        padding: 1.5rem;
+        margin-top: 2rem;
+    }
+}
